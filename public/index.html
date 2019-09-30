@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.0/mapbox-gl.css' rel='stylesheet' />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.4.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="map"></div>
+    <div id="container">
+      <div id="map"></div>
+      <div id="options">
+        <select name="hotel">
+          <option name="hotel1">Hotel 1</option>
+        </select>
+      </div>
+    </div>
     <script src="bundle.js" defer></script>
   </body>
 </html>
